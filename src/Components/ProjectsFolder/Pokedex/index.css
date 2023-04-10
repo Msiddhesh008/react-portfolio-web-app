@@ -1,0 +1,11 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #ced6e0;
+    background-color: #0b1826;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(./images/bg2.png); */
+}

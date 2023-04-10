@@ -1,0 +1,80 @@
+.Flip{
+    background-color: #0b1826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    /* width: 100vw; */
+    position: relative;
+}
+.Flip .FlipBtn{
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #0b1826;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 1rem;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+        );
+}
+.Fliph1{
+   letter-spacing: 5px;
+   font-size: 4rem;
+   font-weight: bolder;
+   background-image: linear-gradient(
+	to right,
+	#462523 0,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
+}
+.FlipImg{
+    width: 18rem;
+    height: 18rem;
+}
+.flipP{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -1rem;
+    width: 100%;
+    height: 3rem;
+    font-weight: 900;
+    background-color: #cb9b51;
+    color: #0b1826;
+    font-size: 1.5rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Fliph1{
+       letter-spacing: 2px;
+       font-size: 2rem;
+       margin-top: 5rem;
+    }
+    .flipP{
+        font-size: 1rem;
+    }
+
+}

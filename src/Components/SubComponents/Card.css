@@ -1,0 +1,32 @@
+
+.whyMeCnt{
+    color: white;
+    font-size: large; 
+    border: 0.2px solid #89715b83;
+    height: 50vh;
+    transition: 0.5s;
+    cursor: pointer;   
+    background: linear-gradient(to left, #090909 50%, #89715b 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 1s ease-out;
+}
+.whyMeCnt:hover{
+    background-position: left;
+}
+
+.whyMeCnt > h2{
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.whyMeCnt > p {
+    font-size: 1.2rem;
+    /* line-height: 1rem; */
+}
+
+.whyMeCnt i{
+    font-size: 3.5rem;
+    /* color: #89715b; */
+}

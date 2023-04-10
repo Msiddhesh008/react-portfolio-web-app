@@ -1,0 +1,96 @@
+.Banner{
+    background-image: url("https://images.unsplash.com/photo-1534655882117-f9eff36a1574?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-position: center;
+    height: 110vh;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+
+    /* background-color: #89715b; */
+
+    /* background-color: #8a4700; */
+/* background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+.logo{
+    mix-blend-mode: overlay;
+}
+.banner-cnt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100%;
+
+}
+.heroTitle{
+    font-weight: 800;
+    font-size: 3rem !important;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.heroTitle2{
+    font-weight: 800;
+    font-size: 6rem ;
+}
+.iconCnt{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 2;
+    height: 110vh;
+    width: 100vw;
+}
+
+.line{
+    border-right: 0.5px solid rgba(255, 255, 255, 0.26);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Banner{
+        height: 100vh;
+    }
+    .heroTitle{
+        font-size: 2rem;
+    }
+    .heroTitle2{
+        font-weight: 800;
+        font-size: 3.8rem;
+    }
+    .iconCnt{
+        left: 2rem;
+        gap: 1rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Banner{
+        height: 110vh;
+    }
+    .heroTitle{
+        font-size: 2rem;
+    }
+    .heroTitle2{
+        font-weight: 800;
+        font-size: 3.8rem;
+    }
+    .iconCnt{
+        gap: 2rem;
+    }
+}

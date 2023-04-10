@@ -1,0 +1,36 @@
+.PokeApp{
+    min-height: auto;
+    padding: 4.5rem 0 0.2rem 0;
+    background-color: #0b1826;
+}
+.App .Hand{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.App .score{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.App .score img{
+    position: absolute;
+    left:35rem;
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .App .score img{
+        display:none;
+    }
+    .score h2{
+        font-size: 1.2rem;
+    }
+    .score p{
+        font-size: 0.8rem;
+    }
+}    

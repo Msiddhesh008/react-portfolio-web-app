@@ -1,0 +1,43 @@
+.Footer{
+    min-height: auto;
+    background-color: #090909;
+}
+.contact{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact > p{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 2rem;
+}
+
+.contact > h1{
+    color: #89715b;
+    font-weight: bolder;
+}
+.footerBottom{
+    height: 20vh;
+}
+
+.footerBottom > .copyright{
+    color: white;
+}
+
+.footerBottom > .social{
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footerBottom > .copyright{
+        text-align: center;
+    }
+    
+}

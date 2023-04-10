@@ -1,0 +1,102 @@
+.rollDice{
+    height: 100vh;
+    background-color: #fc3153;
+}
+
+.diceCnt{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnCnt{
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dieCnt, .h1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 125px;
+    gap: 4rem;
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:   0px -6px 0 #212121,  
+                    0px -6px 0 #212121,
+                    0px  6px 0 #212121,
+                    0px  6px 0 #212121,
+                    -6px  0px 0 #212121,  
+                    6px  0px 0 #d37878,
+                    -6px  0px 0 #212121,
+                    6px  0px 0 #212121,
+                    -6px -6px 0 #212121,  
+                    6px -6px 0 #212121,
+                    -6px  6px 0 #212121,
+                    6px  6px 0 #212121,
+                    -6px  18px 0 #212121,
+                    0px  18px 0 #212121,
+                    6px  18px 0 #212121,
+                    0 19px 1px rgba(0,0,0,.1),
+                    0 0 6px rgba(0,0,0,.1),
+                    0 6px 3px rgba(0,0,0,.3),
+                    0 12px 6px rgba(0,0,0,.2),
+                    0 18px 18px rgba(0,0,0,.25),
+                    0 24px 24px rgba(0,0,0,.2),
+                    0 36px 36px rgba(0,0,0,.15);
+}
+
+.btnn{
+    background-color: rgb(22, 20, 20);
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #000;
+    font-weight: bold;
+    width: 14rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+
+}
+ 
+.Die-shaking{
+    animation-name:shake;
+    animation-duration: 1s;
+  }
+    
+  @keyframes shake {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    15% {
+      transform: translate3d(-25%, 0, 0) 
+                 rotate3d(0, 0, 1, -5deg);
+    }
+    30% {
+      transform: translate3d(20%, 0, 0) 
+                 rotate3d(0, 0, 1, 3deg);
+    }
+    45% {
+      transform: translate3d(-15%, 0, 0)
+                 rotate3d(0, 0, 1, -3deg);
+    }
+    60% {
+      transform: translate3d(10%, 0, 0) 
+                 rotate3d(0, 0, 1, 2deg);
+    }
+    75% {
+      transform: translate3d(-5%, 0, 0) 
+                 rotate3d(0, 0, 1, -1deg);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
