@@ -36,6 +36,9 @@
     font-weight: 800;
     font-size: 6rem ;
 }
+.Banner p{
+    font-size: larger;
+}
 .iconCnt{
     position: absolute;
     bottom: 1rem;
@@ -44,19 +47,6 @@
     gap: 3rem;
     font-size: 1.5rem;
     color: white;
-}
-.overLay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    z-index: 2;
-    height: 110vh;
-    width: 100vw;
-}
-
-.line{
-    border-right: 0.5px solid rgba(255, 255, 255, 0.26);
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -4,13 +4,13 @@ import 'aos/dist/aos.css';
  class ProgressBar extends Component {
 
   render() {
-    const { percent, title, delay } = this.props
+    const { percent, title } = this.props
     
     return (
       
       <div className=''
-      data-aos-delay={`${delay}`}
       data-aos="fade-up" 
+      data-aos-duration="1500"
       >
       <h5>{title}</h5>
         <div 

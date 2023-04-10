@@ -23,7 +23,9 @@ export default class ContentHolder extends Component {
         className="col-12 col-lg-6 pt-5 " 
         style={aboutInfoStyle}
         data-aos={`${animation}`} 
+        data-aos-offset="100"
         data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
         >
           <h1 style={{color:"#89715b", fontSize:"3.5rem"}}>{title}</h1><br />
           <h5 style={{lineHeight:"1.8rem"}}>{h5}</h5><br />

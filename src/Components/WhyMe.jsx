@@ -51,16 +51,16 @@ class WhyMe extends Component {
           drives my work. I am constantly striving to stay up-to-date with the latest 
           technologies and trends, ensuring that my skills and knowledge are always at 
           the forefront of the industry."
-          animation="fade-right"
+          animation="fade-up"
           />
 
           <div className="col-lg-6 col-12 progressCnt p-3 pb-4">
 
-            <ProgressBar percent="90" title="HTML" delay="100"/>
-            <ProgressBar percent="85" title="CSS" delay="200"/>
-            <ProgressBar percent="90" title="Javascript" delay="300" />
-            <ProgressBar percent="80" title="React Js" delay="400" />
-            <ProgressBar percent="90" title="React Native" delay="500" />
+            <ProgressBar percent="90" title="HTML" />
+            <ProgressBar percent="85" title="CSS" />
+            <ProgressBar percent="90" title="Javascript" />
+            <ProgressBar percent="80" title="React Js" />
+            <ProgressBar percent="90" title="React Native" />
 
           </div>
 

@@ -4,8 +4,14 @@ import photo from "../images/photo.jpg"
 import sign from "../images/sign1.png"
 import ContentHolder from './SubComponents/ContentHolder'
 import TechTag from './SubComponents/TechTag'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class TechstackAndAbout extends Component {
+  componentDidMount() {
+      AOS.init();
+  }
+
   render() {
     return (
       <div className='TechStack pt-5'>
@@ -29,8 +35,14 @@ class TechstackAndAbout extends Component {
           <div className="container about ">
             <div className="row aboutrow">
               <div className="col-12 col-lg-6 pt-5">
-              <img src={photo} alt="" className='photo img-fluid'/>
+
+              <img 
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-offset="250"
+              src={photo} alt="" className='photo img-fluid'/>
               </div>
+
               <ContentHolder 
               title="SIDDHESH MORE" 
               h5="My passion for technology is matched 
