@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./Banner.css"
 import { Fragment } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

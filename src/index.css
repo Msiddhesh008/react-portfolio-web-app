@@ -1,9 +1,280 @@
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
+/* ===[ Navbar ]=== */
+.navbar{
+  mix-blend-mode: screen;
+}
+.navbar button{
+  border-radius: 0;
+  border: none !important;
+}
+
+/* ===[ Banner ]=== */
+.Banner{
+  background-image: url("../src/images/banner.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 110vh;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+.logo{
+  mix-blend-mode: overlay;
+}
+.banner-cnt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100%;
+}
+.heroTitle{
+  font-weight: 800;
+  font-size: 3rem !important;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.heroTitle2{
+  font-weight: 800;
+  font-size: 6rem ;
+}
+.Banner p{
+  font-size: larger;
+}
+.iconCnt{
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* ===[ Techstack & About ]=== */
+.TechStack{
+  min-height: 100vh;
+  background-color: #090909;
+  color: white;
+}
+.techTags{
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Alkatra';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+  padding-bottom: 2rem;
+}
+.tag{
+  opacity: 30%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.tag:hover{
+  opacity: 100%;
+}
+.aboutrow{
+  min-height: auto;
+}
+.photo{
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+/* ===[ WhyMe ]=== */
+.WhyMe{
+  min-height: auto;
+  background-color: #141414;
+}
+.whymerow{
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+  padding-bottom: 5.5rem ;
+}
+
+.progressCnt{
+  min-height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bar{
+  margin-top: 2rem;
+
+}
+
+/* ===[ Project ]=== */
+.Projects{
+  min-height: 100vh;
+  background-color: #090909;
+  color: white;
+}
+.Projects p{
+  color: rgba(255, 255, 255, 0.459);
+}
+.proImg{
+  width: 100%;
+}
+.proDisc p{
+  font-size: 1.2rem;
+}
+.proDisc h3{
+  font-weight: 800;
+}
+
+/* ===[ Artwork ]=== */
+.Artwork{
+  background-color: #141414;
+  }
+.containerImg {
+    display: flex;
+    width: 100%;
+    padding: 4% 0%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  .box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    color: white;
+    line-height: 2.6;
+  }
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+
+/* ===[ Footer ]=== */
+.Footer{
+  min-height: auto;
+  background-color: #090909;
+}
+.contact{
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.contact > p{
+  color: rgba(255, 255, 255, 0.651);
+  font-size: 2rem;
+}
+.contact > h1{
+  color: #89715b;
+  font-weight: bolder;
+}
+.footerBottom{
+  height: 20vh;
+}
+.footerBottom > .copyright{
+  color: white;
+}
+.footerBottom > .social{
+  display: inline-flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+
+/* ================================[ Media Querry ]============================ */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Banner{
+      height: 100vh;
+  }
+  .heroTitle{
+      font-size: 2rem;
+  }
+  .heroTitle2{
+      font-weight: 800;
+      font-size: 3rem;
+  }
+  .iconCnt{
+      left: 2rem;
+      gap: 1rem;
+      font-size: 1.5rem;
+  }
+  
+  .techTags{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+  .tag{
+    opacity: 80%;
+}
+
+.whyMeCnt{
+  height: 40vh;
+}
+.containerImg {
+  height: 60vh;
+}
+
+.footerBottom > .copyright{
+  text-align: center;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Banner{
+      height: 110vh;
+  }
+  .heroTitle{
+      font-size: 2rem;
+  }
+  .heroTitle2{
+      font-weight: 800;
+      font-size: 3.8rem;
+  }
+  .iconCnt{
+      gap: 2rem;
+  }
+  
+  .whyMeCnt{
+    height: 80vh;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .whyMeCnt{
+      height: 50vh;
+  }  
+}
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./Projects.css"
 import ProRow from './SubComponents/ProRow'
 import todo from '../images/todo.png'
 

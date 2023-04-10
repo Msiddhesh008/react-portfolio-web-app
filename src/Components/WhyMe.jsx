@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./WhyMe.css"
 import ProgressBar from '../Components/SubComponents/ProgressBar'
 import ContentHolder from './SubComponents/ContentHolder'
 import Card from './SubComponents/Card'

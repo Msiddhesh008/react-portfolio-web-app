@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./TechstackAndAbout.css"
 import photo from "../images/photo.jpg"
 import sign from "../images/sign1.png"
 import ContentHolder from './SubComponents/ContentHolder'
