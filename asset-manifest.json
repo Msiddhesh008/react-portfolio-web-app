@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-web-app/static/css/main.7a6816a7.css",
+    "main.js": "/react-portfolio-web-app/static/js/main.66429aec.js",
+    "static/media/todo.png": "/react-portfolio-web-app/static/media/todo.0e519713dbcff7ed2a27.png",
+    "static/media/Tail.png": "/react-portfolio-web-app/static/media/Tail.a155e229d8c11e12a110.png",
+    "static/media/Head.png": "/react-portfolio-web-app/static/media/Head.8e133a37ebce58f4e333.png",
+    "static/media/art5.jpg": "/react-portfolio-web-app/static/media/art5.052c308a78007f2b8d0c.jpg",
+    "static/media/art1.jpg": "/react-portfolio-web-app/static/media/art1.a01ec5bcbf0407f0299a.jpg",
+    "static/media/pokeball.png": "/react-portfolio-web-app/static/media/pokeball.1662d2a443d0ec571ab3.png",
+    "static/media/art3.jpg": "/react-portfolio-web-app/static/media/art3.0d602731bd62eb816427.jpg",
+    "static/media/art2.jpg": "/react-portfolio-web-app/static/media/art2.8df803cad921f48f8b48.jpg",
+    "static/media/sign1.png": "/react-portfolio-web-app/static/media/sign1.a5e7eabd546880a16bc9.png",
+    "static/media/photo.jpg": "/react-portfolio-web-app/static/media/photo.d58abdc9db3257a8c29a.jpg",
+    "static/media/sm.svg": "/react-portfolio-web-app/static/media/sm.1793fdd67effa1d294c3a6544a0d5b94.svg",
+    "index.html": "/react-portfolio-web-app/index.html",
+    "main.7a6816a7.css.map": "/react-portfolio-web-app/static/css/main.7a6816a7.css.map",
+    "main.66429aec.js.map": "/react-portfolio-web-app/static/js/main.66429aec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a6816a7.css",
+    "static/js/main.66429aec.js"
+  ]
+}
