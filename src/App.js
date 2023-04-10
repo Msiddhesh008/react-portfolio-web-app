@@ -13,10 +13,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/react-portfolio-web-app" element={<Home />} />
-        <Route path="/rolldice" element={<RollDice />} />
-        <Route path="/flipcoin" element={<FlipCoin />} />
-        <Route path="/todo" element={<Todo />} />
-        <Route path="/pokedex" element={<Pokedex />} />
+        <Route path="/react-portfolio-web-app/rolldice" element={<RollDice />} />
+        <Route path="/react-portfolio-web-app/flipcoin" element={<FlipCoin />} />
+        <Route path="/react-portfolio-web-app/todo" element={<Todo />} />
+        <Route path="/react-portfolio-web-app/pokedex" element={<Pokedex />} />
       </Routes>
     </div>
   );

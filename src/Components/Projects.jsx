@@ -21,7 +21,7 @@ class Projects extends Component {
           h3One="React Js"
           h3Two="MySql"
           pc="Bootstarp, Flexbox, Animation, Breakoints"
-          route="/todo"
+          route="/react-portfolio-web-app/todo"
           />
 
           <ProRow imgLink ="https://msiddhesh008.github.io/portfolioweb/ProjectImages/coin1.png"
@@ -34,7 +34,7 @@ class Projects extends Component {
           h3One="React Js"
           h3Two="MySql"
           pc="Bootstarp, Flexbox, Animation, Breakoints"
-          route="/flipcoin"
+          route="/react-portfolio-web-app/flipcoin"
           />
           
 
@@ -47,7 +47,7 @@ class Projects extends Component {
           p3Color="#2ecc71"
           h3One="React JS"
           h3Two="CSS Bootstarp"
-          route="/rolldice"
+          route="/react-portfolio-web-app/rolldice"
           pc="Bootstarp, Flexbox, Animation, Breakoints, State Management"
 
           />
@@ -62,7 +62,7 @@ class Projects extends Component {
           p3Color="#ED4C67"
           h3One="React JS"
           h3Two="CSS Bootstarp"
-          route="/pokedex"
+          route="/react-portfolio-web-app/pokedex"
           />
 
           {/* <button className='btn btn-warning m-5 mx-auto' style={{width:"20%"}}>All Projects</button> */}

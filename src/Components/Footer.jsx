@@ -14,7 +14,7 @@ class Footer extends Component {
 
           <div className="row footerBottom">
             <div className="col-12 col-lg-8 copyright">
-            <p>© 2025 Andle Made with❤️by Siddhesh</p>
+            <p>© 2023 Andle Made with❤️by Siddhesh</p>
             </div>
             <div className="col-12  col-lg-4 social">
               <p style={{color:"#55acee"}}>Twitter</p>
