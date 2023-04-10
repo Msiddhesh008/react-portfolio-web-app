@@ -10,7 +10,9 @@ class Card extends Component {
 
 
   render() {
-    const { h2, p, iClass, delay } = this.props
+    const { h2, p, iClass } = this.props
+
+    // delay
 
     return (
         <div 

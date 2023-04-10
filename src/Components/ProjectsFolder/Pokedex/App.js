@@ -54,7 +54,7 @@ const App = () => {
       </h2>
       <p style={{color: "white"}}>Total Score : {firstHand}</p>
       </div>
-      <img src={logo} width={150}/>
+      <img src={logo} width={150} alt="logo"/>
       <div style={{textAlign:'right'}}>
       <h2 style={{color: firstHand < secondHand ? "Green" : "Red" }} >
         {firstHand > secondHand ? "Second Hand Loose" : "Second Hand Win" }
