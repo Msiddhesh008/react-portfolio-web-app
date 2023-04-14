@@ -20,10 +20,14 @@ class Card extends Component {
         // data-aos-delay={`${delay}`}
         // data-aos="fade-up" 
         // data-aos-easing="ease-in-sine"
+        style={{position:"relative"}}
         >
           <h2>{h2}</h2>
           <p>{p}</p>
+          <div 
+          style={{position:"absolute", bottom:"1rem"}}>
           <i class={iClass}></i>
+          </div>
         </div>
     )
   }

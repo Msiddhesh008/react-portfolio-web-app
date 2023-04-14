@@ -115,7 +115,17 @@ body {
   margin-top: 2rem;
 
 }
-
+.progress{
+  height: 8px;
+  border-radius: 0px;
+}
+.tagTitleCnt{
+  display: flex;
+  justify-content: space-between;
+}
+.tagTitleCnt > h5, .tagTitleCnt > h6{
+  font-size: 1rem;
+}
 /* ===[ Project ]=== */
 .Projects{
   min-height: 100vh;
@@ -239,6 +249,7 @@ body {
 
 .whyMeCnt{
   height: 40vh;
+  position: relative;
 }
 .containerImg {
   height: 60vh;
@@ -247,6 +258,7 @@ body {
 .footerBottom > .copyright{
   text-align: center;
 }
+
 
 }
 

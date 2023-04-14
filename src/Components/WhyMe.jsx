@@ -13,30 +13,30 @@ class WhyMe extends Component {
         <div className="row pt-4 whymerow">
         
         <Card
-        h2="PROFRESSIONAL AND DEDICATE TEAM"
+        h2="PROFRESSIONAL AND DEDICATED"
         p="Building architectures with modern technology.Building architectures"
-        iClass="bi bi-twitter"
+        iClass="bi bi-award"
         delay="100"
         />
         
         <Card
-        h2="PROFRESSIONAL AND DEDICATE TEAM"
+        h2="CREATIVE DESIGNING"
         p="Building architectures with modern technology.Building architectures"
-        iClass="bi bi-twitter"
+        iClass="bi bi-buildings"
         delay="200"
         />
         
         <Card
-        h2="PROFRESSIONAL AND DEDICATE TEAM"
+        h2="ARTISTIC MIND"
         p="Building architectures with modern technology.Building architectures"
-        iClass="bi bi-twitter"
+        iClass="bi bi-brush"
         delay="300"
         />
         
         <Card
-        h2="PROFRESSIONAL AND DEDICATE TEAM"
+        h2="PASSIONATE CODER"
         p="Building architectures with modern technology.Building architectures"
-        iClass="bi bi-twitter"
+        iClass="bi bi-code-square"
         delay="400"
         />
         
@@ -56,10 +56,13 @@ class WhyMe extends Component {
           <div className="col-lg-6 col-12 progressCnt p-3 pb-4">
 
             <ProgressBar percent="90" title="HTML" />
-            <ProgressBar percent="85" title="CSS" />
-            <ProgressBar percent="90" title="Javascript" />
+            <ProgressBar percent="90" title="CSS" />
+            <ProgressBar percent="80" title="Javascript" />
             <ProgressBar percent="80" title="React Js" />
-            <ProgressBar percent="90" title="React Native" />
+            <ProgressBar percent="60" title="React Native" />
+            <ProgressBar percent="80" title="My Sql" />
+            <ProgressBar percent="95" title="Bootstrap5" />
+            <ProgressBar percent="60" title="Nose Js" />
 
           </div>
 
