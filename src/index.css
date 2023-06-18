@@ -3,11 +3,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 
 /* ===[ Loader ]=== */
 
 #loader {
-  height: 100vh;
+  height: 90%;
   width: 100%;
   background-color: #090909;
   display: flex;
@@ -23,6 +26,14 @@ body {
   width: 100%;
   text-align: center;
 
+}
+.splash-name{
+  height: 10%;
+  text-align: center;
+  background-color: #090909;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 
