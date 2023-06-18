@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio-web-app/static/css/main.a295e9d9.css",
-    "main.js": "/react-portfolio-web-app/static/js/main.53c8d97b.js",
+    "main.css": "/react-portfolio-web-app/static/css/main.75345607.css",
+    "main.js": "/react-portfolio-web-app/static/js/main.6ec3b815.js",
     "static/media/todo.png": "/react-portfolio-web-app/static/media/todo.0e519713dbcff7ed2a27.png",
-    "static/media/banner.png": "/react-portfolio-web-app/static/media/banner.a26ce4c52dda5c277681.png",
+    "static/media/vending-machine.png": "/react-portfolio-web-app/static/media/vending-machine.4f9b6c3754e28c820083.png",
+    "static/media/Firechat.png": "/react-portfolio-web-app/static/media/Firechat.3405b5d86019473ae98d.png",
     "static/media/Tail.png": "/react-portfolio-web-app/static/media/Tail.a155e229d8c11e12a110.png",
     "static/media/Head.png": "/react-portfolio-web-app/static/media/Head.8e133a37ebce58f4e333.png",
+    "static/media/card-deck.png": "/react-portfolio-web-app/static/media/card-deck.0126df573ccea24a33a3.png",
+    "static/media/dad-joke.png": "/react-portfolio-web-app/static/media/dad-joke.2d043d2d168087ec0491.png",
     "static/media/art5.jpg": "/react-portfolio-web-app/static/media/art5.052c308a78007f2b8d0c.jpg",
     "static/media/art1.jpg": "/react-portfolio-web-app/static/media/art1.a01ec5bcbf0407f0299a.jpg",
     "static/media/pokeball.png": "/react-portfolio-web-app/static/media/pokeball.1662d2a443d0ec571ab3.png",
@@ -13,13 +16,14 @@
     "static/media/art2.jpg": "/react-portfolio-web-app/static/media/art2.8df803cad921f48f8b48.jpg",
     "static/media/sign1.png": "/react-portfolio-web-app/static/media/sign1.a5e7eabd546880a16bc9.png",
     "static/media/photo.jpg": "/react-portfolio-web-app/static/media/photo.d58abdc9db3257a8c29a.jpg",
+    "static/media/bg.png": "/react-portfolio-web-app/static/media/bg.908ca75e3b9aaa1ff39d.png",
     "static/media/sm.svg": "/react-portfolio-web-app/static/media/sm.1793fdd67effa1d294c3a6544a0d5b94.svg",
     "index.html": "/react-portfolio-web-app/index.html",
-    "main.a295e9d9.css.map": "/react-portfolio-web-app/static/css/main.a295e9d9.css.map",
-    "main.53c8d97b.js.map": "/react-portfolio-web-app/static/js/main.53c8d97b.js.map"
+    "main.75345607.css.map": "/react-portfolio-web-app/static/css/main.75345607.css.map",
+    "main.6ec3b815.js.map": "/react-portfolio-web-app/static/js/main.6ec3b815.js.map"
   },
   "entrypoints": [
-    "static/css/main.a295e9d9.css",
-    "static/js/main.53c8d97b.js"
+    "static/css/main.75345607.css",
+    "static/js/main.6ec3b815.js"
   ]
 }
