@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import ProRow from './SubComponents/ProRow'
 import todo from '../images/todo.png'
+import Firechat from '../images/Firechat.png'
+import dadJoke from '../images/dad-joke.png'
+import vendingMachine from '../images/vending-machine.png'
+import cardDeck from '../images/card-deck.png'
+
 
 class Projects extends Component {
   render() {
@@ -9,6 +14,36 @@ class Projects extends Component {
         <div className="container pt-5 pb-5">
         <div className="row pt-5">
           <p>PROJECTS</p>
+          
+
+          <ProRow imgLink ={dadJoke}
+          title="Dad Joke"
+          p1="Frontend"
+          p2="Backend"
+          p1Color="#ffb8b8"
+          p2Color="#ff9f1a"
+          p3Color="#3ae374"
+          h3One="React Js"
+          h3Two="API"
+          pc="Axio, Api, Hooks"
+          route="/react-portfolio-web-app/dad-joke"
+          />
+          
+
+          <ProRow imgLink ={cardDeck}
+          title="Card Deck"
+          p1="Design"
+          p2="Styling"
+          p1Color="#e74c3c"
+          p2Color="#e67e22"
+          p3Color="#ED4C67"
+          h3One="React JS"
+          h3Two="CSS Bootstarp"
+          pc="API fetching"
+          route="/react-portfolio-web-app/pokedex"
+          />
+
+          {/* ===[ new ]=== */}
 
           <ProRow imgLink ={todo}
           title="Todo List"

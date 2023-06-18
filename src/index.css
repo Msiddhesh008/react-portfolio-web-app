@@ -4,6 +4,28 @@ body {
   box-sizing: border-box;
 }
 
+/* ===[ Loader ]=== */
+
+#loader {
+  height: 100vh;
+  width: 100%;
+  background-color: #090909;
+  display: flex;
+  color: #89715b;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+#loader > h2{
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  width: 100%;
+  text-align: center;
+
+}
+
+
 /* ===[ Navbar ]=== */
 .navbar{
   mix-blend-mode: screen;
@@ -15,7 +37,7 @@ body {
 
 /* ===[ Banner ]=== */
 .Banner{
-  background-image: url("../src/images/banner.png");
+  background-image: url("../src/images/bg.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -259,6 +281,10 @@ body {
   text-align: center;
 }
 
+.footerBottom > .social{
+  display: flex;
+  justify-content: center;
+}
 
 }
 
