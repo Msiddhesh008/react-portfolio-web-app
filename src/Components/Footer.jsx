@@ -25,10 +25,10 @@ class Footer extends Component {
             <p>© 2023 Made with❤️by Siddhesh</p>
             </div>
             <div className="col-12  col-lg-4 social">
-              <a href="#" target='_blank' style={{color:"#55acee"}}>Twitter</a>
-              <a href="#" target='_blank' style={{color:"#ffffff"}}>Github</a>
-              <a href="https://www.instagram.com/msiddhesh007/" target='_blank' style={{color:"#cd201f"}}>Instagram</a>
-              <a href="#" target='_blank' style={{color:"#3b5998"}}>Facebook</a>
+              <a href="#" target='_blank' style={{color:"#55acee", textDecoration: "none"}}>Twitter</a>
+              <a href="#" target='_blank' style={{color:"#ffffff", textDecoration: "none"}}>Github</a>
+              <a href="https://www.instagram.com/msiddhesh007/" target='_blank' style={{color:"#cd201f", textDecoration: "none"}}>Instagram</a>
+              <a href="#" target='_blank' style={{color:"#3b5998", textDecoration: "none"}}>Facebook</a>
             </div>
           </div>
 

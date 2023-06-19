@@ -9,6 +9,7 @@ import Todo from "./Components/ProjectsFolder/Todo/Todo";
 import Pokedex from "./Components/ProjectsFolder/Pokedex/App";
 import DadJoke from "./Components/ProjectsFolder/JokeGenerator/JokeGenerator";
 import Loader from "./Components/Loader"
+import DeckCard from "./Components/ProjectsFolder/HookCardDeck/HookDeck"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/react-portfolio-web-app/todo" element={<Todo />} />
         <Route path="/react-portfolio-web-app/pokedex" element={<Pokedex />} />
         <Route path="/react-portfolio-web-app/dad-joke" element={<DadJoke />} />
+        <Route path="/react-portfolio-web-app/deck-card" element={<DeckCard />} />
       </Routes>
     </div>
   );

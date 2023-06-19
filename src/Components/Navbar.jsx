@@ -10,9 +10,6 @@ class Navbar extends Component {
       <Link  className="navbar-brand text-white fs-1" to="/react-portfolio-web-app">
       <img src={sm} alt="" width={60} className='logo'/>
       </Link>
-      <button className="navbar-toggler fw-bolder border-none border-radius-0 hamburger bg-white text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        Menu
-      </button>
       <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="offcanvas-header">
       <img className="offcanvas-title" id="offcanvasNavbarLabel" src={sm} alt="" width={60} />
@@ -35,3 +32,9 @@ class Navbar extends Component {
 export default Navbar
 
 
+
+
+
+{/* <button className="navbar-toggler fw-bolder border-none border-radius-0 hamburger bg-white text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+Menu
+</button> */}

@@ -1,0 +1,10 @@
+
+.card{
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: transparent;
+    z-index: 1;
+}

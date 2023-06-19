@@ -1,7 +1,7 @@
 import React from 'react'
 
-// import DotLoader from "react-spinners/DotLoader";
-import sm from "../images/sm.svg"
+import DotLoader from "react-spinners/DotLoader";
+// import sm from "../images/sm.svg"
 
 
 const Loader = () => {
@@ -10,14 +10,14 @@ const Loader = () => {
       height:"100vh"
     }}>
     <div id="loader" className="container-fluid">
-      {/* <DotLoader
+      <DotLoader
         color={"#89715b"}
         loading="loading"
         size={100}
         aria-label="Loading Spinner"
         data-testid="loader"
-      /> */}
-      <img src={sm} alt="" width={80} className='splash'/>
+      />
+      {/* <img src={sm} alt="" width={80} className='splash'/> */}
       
     </div>
       <p className="splash-name">Siddhesh More</p>

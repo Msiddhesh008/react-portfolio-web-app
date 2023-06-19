@@ -40,7 +40,7 @@ class Projects extends Component {
           h3One="React JS"
           h3Two="CSS Bootstarp"
           pc="API fetching"
-          route="/react-portfolio-web-app/pokedex"
+          route="/react-portfolio-web-app/deck-card"
           />
 
           {/* ===[ new ]=== */}

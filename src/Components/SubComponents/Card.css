@@ -3,7 +3,7 @@
     color: white;
     font-size: large; 
     border: 0.2px solid #89715b83;
-    height: 50vh;
+    height: 45vh;
     transition: 0.5s;
     cursor: pointer;   
     background: linear-gradient(to left, #090909 50%, #89715b 50%);
@@ -22,11 +22,21 @@
 }
 
 .whyMeCnt > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* line-height: 1rem; */
 }
 
 .whyMeCnt i{
     font-size: 3.5rem;
     /* color: #89715b; */
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .whyMeCnt{
+        height: 40vh;
+
+    }
+
 }

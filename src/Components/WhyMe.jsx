@@ -21,21 +21,21 @@ class WhyMe extends Component {
         
         <Card
         h2="CREATIVE DESIGNING"
-        p="Building architectures with modern technology.Building architectures"
+        p="Creative designing is the art of blending imagination, aesthetics, and functionality to craft visually captivating and purposeful creations."
         iClass="bi bi-buildings"
         delay="200"
         />
         
         <Card
         h2="ARTISTIC MIND"
-        p="Building architectures with modern technology.Building architectures"
+        p="An artistic mind is a vivid kaleidoscope of creativity, weaving together unique perspectives to create captivating works of beauty."
         iClass="bi bi-brush"
         delay="300"
         />
         
         <Card
         h2="PASSIONATE CODER"
-        p="Building architectures with modern technology.Building architectures"
+        p="A passionate coder is a relentless architect of digital worlds, transforming intricate lines of code into functional and impactful creations."
         iClass="bi bi-code-square"
         delay="400"
         />
