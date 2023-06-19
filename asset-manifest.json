@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/react-portfolio-web-app/static/css/main.80318db2.css",
-    "main.js": "/react-portfolio-web-app/static/js/main.cfbef32a.js",
+    "main.css": "/react-portfolio-web-app/static/css/main.f10ef291.css",
+    "main.js": "/react-portfolio-web-app/static/js/main.edc3c6a0.js",
     "static/media/todo.png": "/react-portfolio-web-app/static/media/todo.0e519713dbcff7ed2a27.png",
     "static/media/vending-machine.png": "/react-portfolio-web-app/static/media/vending-machine.4f9b6c3754e28c820083.png",
+    "static/media/casino.png": "/react-portfolio-web-app/static/media/casino.9d02a4162f093da08737.png",
     "static/media/Firechat.png": "/react-portfolio-web-app/static/media/Firechat.3405b5d86019473ae98d.png",
+    "static/media/tb.png": "/react-portfolio-web-app/static/media/tb.1fd0c8975d1ff1404cca.png",
     "static/media/Tail.png": "/react-portfolio-web-app/static/media/Tail.a155e229d8c11e12a110.png",
     "static/media/Head.png": "/react-portfolio-web-app/static/media/Head.8e133a37ebce58f4e333.png",
     "static/media/card-deck.png": "/react-portfolio-web-app/static/media/card-deck.0126df573ccea24a33a3.png",
@@ -19,11 +21,11 @@
     "static/media/bg.png": "/react-portfolio-web-app/static/media/bg.908ca75e3b9aaa1ff39d.png",
     "static/media/sm.svg": "/react-portfolio-web-app/static/media/sm.1793fdd67effa1d294c3a6544a0d5b94.svg",
     "index.html": "/react-portfolio-web-app/index.html",
-    "main.80318db2.css.map": "/react-portfolio-web-app/static/css/main.80318db2.css.map",
-    "main.cfbef32a.js.map": "/react-portfolio-web-app/static/js/main.cfbef32a.js.map"
+    "main.f10ef291.css.map": "/react-portfolio-web-app/static/css/main.f10ef291.css.map",
+    "main.edc3c6a0.js.map": "/react-portfolio-web-app/static/js/main.edc3c6a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.80318db2.css",
-    "static/js/main.cfbef32a.js"
+    "static/css/main.f10ef291.css",
+    "static/js/main.edc3c6a0.js"
   ]
 }
