@@ -62,11 +62,9 @@ class WhyMe extends Component {
             <ProgressBar percent="60" title="React Native" />
             <ProgressBar percent="80" title="My Sql" />
             <ProgressBar percent="95" title="Bootstrap5" />
-            <ProgressBar percent="60" title="Nose Js" />
+            <ProgressBar percent="60" title="Node Js" />
 
           </div>
-
-          
         </div>
 
         </div>

@@ -55,6 +55,9 @@ body {
 }
 .logo{
   mix-blend-mode: overlay;
+  position:absolute;
+  left:1rem;
+
 }
 .banner-cnt{
   display: flex;

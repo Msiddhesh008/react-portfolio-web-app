@@ -9,12 +9,12 @@ class ProRow extends Component {
     return (
 
         <div className="row mt-5">
-        <div className="col-12 col-lg-5 mt-5 ">
+        <div className="col-12 col-lg-6 mt-5 ">
           <p>{title}</p><br/>
           <img src={ imgLink } className='proImg img-fluid' alt="" />
 
         </div>
-        <div className="col-12 col-lg-7 mt-5 ps-5">
+        <div className="col-12 col-lg-6 mt-5 ps-5">
           <div className="proDisc mt-5">
             
           <>

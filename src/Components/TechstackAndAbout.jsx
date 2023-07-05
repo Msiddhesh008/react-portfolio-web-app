@@ -13,7 +13,7 @@ class TechstackAndAbout extends Component {
 
   render() {
     return (
-      <div className='TechStack pt-5'>
+      <div className='TechStack pt-5 pb-5'>
         <div className="container-fluid ">
           <div className="container">
             {/* <h1 style={{color:"#89715b", float:"Left"}}>Tech Stack</h1> */}
@@ -37,8 +37,8 @@ class TechstackAndAbout extends Component {
 
               <img 
               data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-offset="250"
+              data-aos-duration="1000"
+              data-aos-offset="100"
               src={photo} alt="" className='photo img-fluid'/>
               </div>
 
